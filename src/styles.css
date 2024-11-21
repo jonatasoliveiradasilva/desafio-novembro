@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#produtos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+#produtos .produto-imagem {
+    border-radius: 5px;
+    height: 100px;
+    object-fit: cover;
+    width: 250px;
+}
+
+#produtos h2,
+#produtos p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#produtos h2,
+#produtos p {
+    margin-top: 10px;
+}
+
+#produtos button {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
